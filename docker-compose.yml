@@ -1,0 +1,11 @@
+version: "1.0"
+services:
+  tuc_fusion:
+    build: .
+    volumes:
+      - .:/fusion
+    network_mode: host
+# networks:
+#   default:
+#     external:
+#       name: host

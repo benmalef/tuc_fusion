@@ -1,0 +1,239 @@
+{
+  "openlabel": {
+    "metadata": {
+      "schema_version": "1.0.0",
+      "timestamp": 1712155233,
+      "annotator": "CCTV"
+    },
+    "streams": {
+      "CCTV": {
+        "description": "",
+        "uri": "",
+        "type": "camera"
+      }
+    },
+    "objects": {
+      "0": {
+        "name": "fov",
+        "type": "fov",
+        "object_data": {
+          "poly2d": [
+            {
+              "name": "fov_poly",
+              "val": [
+                45.806983947753906,
+                21.265226364135742,
+                45.8069953918457,
+                21.26810073852539,
+                45.80501174926758,
+                21.267011642456055,
+                45.80500793457031,
+                21.266311645507812
+              ],
+              "mode": "MODE_POLY2D_ABSOLUTE",
+              "closed": true
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "fov_poly": {
+            "type": "poly2d",
+            "frame_intervals": []
+          }
+        }
+      },
+      "1": {
+        "name": "person0",
+        "type": "person",
+        "object_data": {
+          "text": [
+            {
+              "name": "uuid",
+              "val": "e4aac10a-5a2b-4d86-ba23-660790db2177"
+            },
+            {
+              "name": "attribute",
+              "val": "Moving"
+            }
+          ],
+          "bbox": [
+            {
+              "name": "detection_image",
+              "val": [
+                664,
+                670,
+                16,
+                32
+              ]
+            },
+            {
+              "name": "detection_UAV_frame",
+              "val": [
+                0,
+                662,
+                1,
+                1
+              ]
+            }
+          ],
+          "num": [
+            {
+              "name": "confidence",
+              "val": 0
+            },
+            {
+              "name": "latitude",
+              "val": 45.80523925722001
+            },
+            {
+              "name": "longitude",
+              "val": 21.266513937517157
+            },
+            {
+              "name": "altitude",
+              "val": 0
+            },
+            {
+              "name": "MASL",
+              "val": 0
+            },
+            {
+              "name": "velocity",
+              "val": 34.52029200863117
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "uuid": {
+            "type": "text",
+            "frame_intervals": []
+          },
+          "detection_image": {
+            "type": "bbox",
+            "frame_intervals": []
+          },
+          "detection_UAV_frame": {
+            "type": "bbox",
+            "frame_intervals": []
+          },
+          "confidence": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "latitude": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "longitude": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "altitude": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "MASL": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "attribute": {
+            "type": "text",
+            "frame_intervals": []
+          },
+          "velocity": {
+            "type": "num",
+            "frame_intervals": []
+          }
+        }
+      },
+      "2": {
+        "name": "car3",
+        "type": "car",
+        "object_data": {
+          "text": [
+            {
+              "name": "uuid",
+              "val": "cd2c062c-26a0-424c-9e33-7196b7f4793c"
+            }
+          ],
+          "bbox": [
+            {
+              "name": "detection_image",
+              "val": [
+                725,
+                296,
+                53,
+                28
+              ]
+            },
+            {
+              "name": "detection_UAV_frame",
+              "val": [
+                0,
+                740,
+                1,
+                1
+              ]
+            }
+          ],
+          "num": [
+            {
+              "name": "confidence",
+              "val": 0
+            },
+            {
+              "name": "latitude",
+              "val": 45.80572702386404
+            },
+            {
+              "name": "longitude",
+              "val": 21.266478439769728
+            },
+            {
+              "name": "altitude",
+              "val": 0
+            },
+            {
+              "name": "MASL",
+              "val": 0
+            }
+          ]
+        },
+        "object_data_pointers": {
+          "uuid": {
+            "type": "text",
+            "frame_intervals": []
+          },
+          "detection_image": {
+            "type": "bbox",
+            "frame_intervals": []
+          },
+          "detection_UAV_frame": {
+            "type": "bbox",
+            "frame_intervals": []
+          },
+          "confidence": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "latitude": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "longitude": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "altitude": {
+            "type": "num",
+            "frame_intervals": []
+          },
+          "MASL": {
+            "type": "num",
+            "frame_intervals": []
+          }
+        }
+      }
+    }
+  }
+}
