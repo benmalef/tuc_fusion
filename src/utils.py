@@ -528,3 +528,10 @@ def get_streams(streams):
     # vcd = core.VCD()
     # streams = vcd.get_streams(message)
     print(streams)
+
+def check_objects(fusion_message):
+    vcd = core.VCD()
+    vcd.load_from_string(fusion_message)
+    return vcd.has_objects()
+
+

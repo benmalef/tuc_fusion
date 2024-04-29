@@ -5,6 +5,7 @@ services:
     volumes:
       - .:/fusion
     network_mode: host
+    tty: true
 # networks:
 #   default:
 #     external:
