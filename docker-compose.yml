@@ -1,4 +1,4 @@
-version: "1.0"
+version: "2.0"
 services:
   tuc_fusion:
     build: .
@@ -6,3 +6,4 @@ services:
       - .:/fusion
     network_mode: host
     tty: true
+    image: test

@@ -5,7 +5,6 @@ FROM python:3.10.12-slim
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
-# Install system dependencies
 RUN apt-get update && apt-get install -y \
     ffmpeg \
     libsm6 \
@@ -15,6 +14,17 @@ RUN apt-get update && apt-get install -y \
 
 # Install pipenv
 RUN pip install pipenv
+
+# Install sudo
+# RUN apt-get update && apt-get install -y sudo
+
+# # Create a user with sudo privileges
+# RUN useradd -m user && \
+#     echo "user ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/user
+
+# # Switch to the new user
+# USER user
+
 
 # Set working directory
 WORKDIR /fusion
@@ -29,4 +39,5 @@ RUN pipenv install
 COPY . . 
 
 # Command to run the application
-CMD ["pipenv", "run", "python", "src/my_kafka_fusion.py"]
+ENTRYPOINT [ "pipenv", "run" ]
+CMD ["python", "src/my_kafka_fusion.py"]

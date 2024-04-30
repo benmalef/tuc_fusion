@@ -11,9 +11,9 @@ import vcd.core as core
 
 
 from_topic = "VCD-detection-raw"
-to_topic = "VCD-detection-raw"
-# boostrap_servers = "10.52.16.65:9199"
-boostrap_servers = "localhost:9199"
+to_topic = "VCD-detection-fused"
+boostrap_servers = "10.52.16.65:9199"
+# boostrap_servers = "localhost:9199"
 # from_topic = "benmalef"
 # to_topic = "asd"
 
