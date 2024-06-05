@@ -10,6 +10,6 @@ Filtering the events based on your preferences.
 Compare all the events. 
 The decision is made using Euclidian distance. 
 
-Don't hesitate to contact [me](benamalef@hotmail.com) for more details. 
+Don't hesitate to contact me for more details.(benmalef@hotmail.com) 
 
 
