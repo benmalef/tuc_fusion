@@ -17,15 +17,15 @@ def publish_message(fusion_message):
 #     "/home/benmalef/Desktop/Border_Fusion_Final/data/BorderData/CCTV_VCD.json"
 # )
 # publish_message(message)
-
+# path for loading messages
 message = utils.load_json_objects(
-    "/home/benmalef/Desktop/Border_Fusion_Final/data/BorderData/CCTV.json"
+    ""
 )
 publish_message(message)
 
-
+# path for loading messages
 message = utils.load_json_objects(
-    "/home/benmalef/Desktop/Border_Fusion_Final/data/BorderData/LWIR_ZOOM.json"
+    ""
 )
 publish_message(message)
 print(message)
